@@ -6,7 +6,7 @@ For those of you who do not want to spend almost 4 hours compiling Plume for Win
 
 ## Steps
 
-1. Decide if what database you will be using: sqlite or postgres
+1. Decide what database you will be using: sqlite or postgres
 2. Extract "Plume_W64_v0.4.0_master-02c528c_postgres.7z" or "Plume_W64_v0.4.0_master-02c528c_postgres" to an easy place like `C:\Plume`
 3. Modify the `.env` file to meet your needs
 4. Run Migrations `plm migration run`
