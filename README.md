@@ -4,7 +4,7 @@
 
 For those of you who do not want to spend almost 4 hours compiling Plume for Windows, here are the binaries needed for running the service using a SQLite or PostgreSQL database.
 
-## Steps
+## New Installation Steps
 
 1. Decide what database you will be using: sqlite or postgres
 2. Extract "Plume_W64_v0.4.0_master-02c528c_postgres.7z" or "Plume_W64_v0.4.0_master-02c528c_postgres.7z" to an easy place like `C:\Plume`
@@ -15,6 +15,10 @@ For those of you who do not want to spend almost 4 hours compiling Plume for Win
 7. Create admin account `plm users new --admin -n "adminusername" -N "Human Readable Admin Name" -b "Biography of Admin here" -p hackmeplease`
 8. Create a task schedule to run Plume on system startup (Read [SERVICE.md](SERVICE.md))
 9. Create a reverse proxy in IIS (Read [PROXY.md](PROXY.md))
+
+## Upgrading Steps
+
+Please read the [UPGRADING.md](UPGRADING.md) guide.
 
 ## Other
 
