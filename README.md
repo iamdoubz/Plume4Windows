@@ -13,8 +13,8 @@ For those of you who do not want to spend almost 4 hours compiling Plume for Win
 5. Initialise search index `plm search init`
 6. Set up your instance `plm instance new`
 7. Create admin account `plm users new --admin -n "adminusername" -N "Human Readable Admin Name" -b "Biography of Admin here" -p hackmeplease`
-8. Create a task schedule to run Plume on system startup
-9. Create a reverse proxy in IIS
+8. Create a task schedule to run Plume on system startup (Read [SERVICE.md](SERVICE.md))
+9. Create a reverse proxy in IIS (Read [PROXY.md](PROXY.md))
 
 ## Other
 
