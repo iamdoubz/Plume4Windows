@@ -6,23 +6,11 @@ Choose the guide that is right for you, Postgres or SQLite.
 
 1. Please make a backup of your database before continuing. There are many ways to export your database...
 
-```
-pg_dump -U username dbname > dbexport.sql
-```
-
-OR
-
-```
-sudo -u postgres pg_dump dbname > plume_backup.sql
-```
-
-OR
+`pg_dump -U username dbname > dbexport.sql` OR `sudo -u postgres pg_dump dbname > plume_backup.sql` OR
 
 ```
 sudo -u postgres pg_dump -h localhost dbname > plume_backup.sql
 ```
-
-Are a few examples.
 
 2. Make a backup of your binary files.
 
